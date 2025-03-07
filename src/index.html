@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+     <div class="logo">✔ Pomofocus</div>
+        <div class="nav-buttons">
+            <button class="btn">📊 Report</button>
+            <button class="btn">⚙ Setting</button>
+            <button class="btn">👤 Sign In</button>
+            <button class="btn">⋮</button>
+        
+        </div>
+        
+    </nav>
+    <hr class="line">
+
+    <div class="container">
+        <div class="tabs">
+            <button id="work-btn" class="active">Pomodoro</button>
+            <button id="short-break-btn">Short Break</button>
+            <button id="long-break-btn">Long Break</button>
+        </div>
+
+        <div class="timer">
+            <h1 id="timer-display">25:00</h1>
+            <button id="start-btn">Start</button>
+            
+        </div>  
+    </div>
+    <div class="break-container">
+        <p class="break-number">#1</p>
+        <p class="break-message">Time for a break!</p>
+        <div class="tasks-section">
+            <h3>Tasks</h3>
+            <hr />
+            <div class="add-task">
+                <span class="plus-icon">+</span> Add Task
+            </div>
+        </div>
+       
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
